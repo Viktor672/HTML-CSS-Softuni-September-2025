@@ -1,0 +1,18 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.container div {
+    margin-top: -10px;
+}
+
+h2 {
+   margin-left: -15px;
+}
+
+.done li {
+    margin-left: -20px;
+}

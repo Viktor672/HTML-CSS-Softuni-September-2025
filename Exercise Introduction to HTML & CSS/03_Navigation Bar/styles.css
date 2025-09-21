@@ -1,0 +1,21 @@
+nav {
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+}
+
+.navigation {
+    display: inline-block;
+    text-decoration: none;
+    background-color: rgb(207, 216, 216);
+    border-radius: 15px;
+    padding: 10px;
+    margin-top: 10px;
+    color: rgb(205, 135, 42);
+}
+
+.navigation:hover {
+    background-color: rgb(150, 165, 165);
+}
