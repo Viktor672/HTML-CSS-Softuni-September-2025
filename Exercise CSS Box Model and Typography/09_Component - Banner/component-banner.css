@@ -1,0 +1,23 @@
+body {
+    background-image: url(images/nature.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: 'Suse Mono', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+    color: white
+}
+
+.container {
+    display: grid;
+    place-self: center;
+    margin-top: 300px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+p {
+    font-size: 15px;
+}

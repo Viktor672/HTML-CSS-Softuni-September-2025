@@ -1,0 +1,67 @@
+.container {
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.buttons-heading {
+    margin-top: 20px;
+}
+
+.button {
+    padding: 10px;
+    border: 1px solid grey;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+a:not(:first-child) {
+ margin-left: 5px;
+}
+
+.button:not(:first-child) {
+    margin-left: 5px;
+}
+
+#button1 {
+    background-color: rgb(200, 200, 200);
+}
+
+#button2 {
+    background-color: rgb(230, 153, 11);
+}
+
+#button3 {
+    background-color: rgb(225, 225, 86);
+}
+
+#button4 {
+    background-color: white;
+}
+
+#edit-button {
+    background-color: rgb(200, 200, 200);
+}
+
+.button {
+    cursor: pointer;
+}
+
+#button1:hover {
+    background-color: rgb(234, 233, 233);
+}
+
+#button2:hover {
+    background-color: rgb(255, 170, 11);
+}
+
+#button3:hover {
+    background-color: rgb(237, 237, 53);
+}
+
+#button4:hover {
+    background-color: rgb(205, 205, 205);
+}
+
+#edit-button:hover {
+    background-color: rgb(234, 233, 233);
+}

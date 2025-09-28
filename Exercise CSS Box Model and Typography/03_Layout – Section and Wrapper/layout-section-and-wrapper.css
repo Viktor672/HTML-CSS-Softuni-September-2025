@@ -1,0 +1,27 @@
+body {
+    border: 2px solid green;
+    height: 100vh;
+    font-weight: bold;
+}
+
+.header-container,
+.banner-container,
+.articles-container {
+    position: relative;
+    display: grid;
+    place-items: center;
+    margin-top: 80px;
+    border: 2px solid black;
+    padding: 30px;
+    width: 1000px;
+    margin-left: 250px;
+}
+
+.header,
+.banner,
+.articles {
+    position: relative;
+    border: 2px solid blue;
+    padding: 20px;
+    width: 700px;
+}

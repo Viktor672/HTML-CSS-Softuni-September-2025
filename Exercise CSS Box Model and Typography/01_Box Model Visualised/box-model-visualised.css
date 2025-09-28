@@ -1,0 +1,42 @@
+.container {
+    display: grid;
+    place-items: center;
+    height: 100vh;
+}
+
+.margin {
+    position: relative;
+    background: rgba(182, 33, 6, 0.6);
+    border: 1px dotted blue;
+    padding: 30px;
+    width: 600px;
+}
+
+.border {
+    position: relative;
+    padding: 30px;
+    border: 1px dotted blue;
+    background: rgba(199, 180, 148, 0.6);
+}
+
+.padding {
+    position: relative;
+    padding: 30px;
+    border: 1px dotted blue;
+    background-color: rgb(0, 113, 0);
+}
+
+.content {
+    position: relative;
+    padding: 30px;
+    border: 1px dotted blue;
+    background-color: rgb(109, 179, 202);
+    text-align: center;
+}
+
+.margin-span, .border-span, .padding-span {
+    position: absolute;
+    display: block;
+    top: 0px;
+    left: 20px;
+}
