@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Gochi+Hand&display=swap");
+
+html {
+    font-family: "Gochi Hand";
+}
+
+html>* {
+    font-family: inherit;
+}
+
+body {
+    padding: 20px;
+    background-color: #E0E0E0;
+}
+
+.container {
+    position: relative;
+    width: 65%;
+    margin: 0 auto;
+    background-color: white;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    border-radius: 15px;
+}
+
+.top-wrapper {
+    background-image: url('./images/nature.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: white;
+    padding: 50px;
+    position: relative;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    height: 500px;
+    width: auto;
+}
+
+.top-wrapper .content {
+    position: absolute;
+    bottom: 14px;
+    left: 18px;
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+    width: 95%;
+    text-align: center;
+}
+
+.top-wrapper .content h1 {
+    font-weight: 500;
+}
+
+.top-wrapper .content p {
+    color: gray;
+}
+
+.container .line {
+    position: absolute;
+    height: 1px;
+    width: 100%;
+    bottom: 162px;
+    left: 0;
+    background-color: gray;
+}
+
+.bottom-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.bottom-wrapper h2 {
+    font-weight: normal;
+}
+
+.bottom-wrapper p {
+    color: gray;
+}
