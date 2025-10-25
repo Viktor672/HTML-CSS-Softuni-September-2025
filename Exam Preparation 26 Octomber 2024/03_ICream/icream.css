@@ -1,0 +1,245 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+
+html {
+    font-family: "Poppins", "sans-serif";
+}
+
+html>* {
+    font-family: inherit;
+}
+
+.navigation {
+    font-family: "Poppins";
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+    background-color: #F195B2;
+    padding: 20px;
+    min-height: 126px;
+}
+
+.navigation .top-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.navigation .top-list .top-link,
+.navigation .top-list p {
+    color: white;
+}
+
+.navigation .middle-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding-top: 15px;
+    margin: 0 auto;
+}
+
+.navigation .bottom-list {
+    margin-top: 20px;
+    padding: 8px 120px;
+    border-radius: 20px;
+    background-color: white;
+    position: absolute;
+    top: 76px;
+    left: 230px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.navigation .bottom-list .bottom-link {
+    color: black;
+}
+
+.navigation .bottom-list h1 {
+    color: #F195B2;
+}
+
+.navigation .bottom-list h1 span {
+    color: #62C3E7;
+}
+
+.header-section {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: auto;
+    background-image: url('./images/carousel-1.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    opacity: 0.9;
+}
+
+.header-container {
+    max-width: 40%;
+    text-align: center;
+}
+
+.header-container h3 {
+    margin-top: 150px;
+    font-size: 20px;
+}
+
+.header-container h1 {
+    font-size: 60px;
+    padding-block: 10px;
+}
+
+.header-container .learn-more {
+    background-color: #F195B2;
+    padding: 10px 25px;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.blue-section {
+    padding: 30px;
+    background-color: #C8E7F8;
+}
+
+.about {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.about .line {
+    margin: 0 auto;
+    width: 10%;
+    height: 4px;
+    background-color: #F195B2;
+}
+
+.about h1 {
+    text-align: center;
+    padding-top: 10px;
+}
+
+.about-wrapper {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    padding-top: 20px;
+}
+
+.about-wrapper .content {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    color: gray;
+    padding: 20px 0px;
+}
+
+.about-wrapper .content h3 {
+    font-weight: bolder;
+    font-size: 21px;
+}
+
+.about-wrapper .content h4 {
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.about-wrapper .content p {
+    font-size: 19px;
+}
+
+.about-wrapper .content span {
+    font-weight: bold;
+}
+
+.about-wrapper img {
+    width: 35%;
+    height: auto;
+}
+
+.about-wrapper .right-container h3 {
+    padding-top: 5px;
+}
+
+.about-wrapper button {
+    padding: 10px 5px;
+    max-width: 130px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    color: white;
+}
+
+.about-wrapper .left-container .learn-more {
+    background-color: #62C3E7;
+}
+
+.about-wrapper .right-container .learn-more {
+    background-color: #F195B2;
+}
+
+.footer {
+    padding: 70px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer h1 {
+    font-size: 60px;
+    color: #F195B2;
+}
+
+.footer h1 span {
+    color: #62C3E7;
+}
+
+.footer .footer-list {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.footer .footer-list i {
+    width: 50px;
+    border: 2px solid #46e5fa;
+    border-radius: 100%;
+    padding: 10px;
+}
+
+.footer-wrapper {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.footer-wrapper .line {
+    background-color: black;
+    width: 1px;
+    height: auto;
+}
+
+.footer-wrapper .content {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align: end;
+}
+
+.footer p span {
+    color: #F195B2;
+}
